@@ -15,9 +15,6 @@ import java.util.List;
 @Repository
 public class GenericDao {
 
-//    @Autowired
-//    JdbcTemplate jdbcTemplate;
-
     public GenericDTO get() {
         return new GenericDTO(1L,"OK");
     }
@@ -27,7 +24,6 @@ public class GenericDao {
         list.add(new GenericDTO(2L, "OK"));
         list.add(new GenericDTO(2L, "OK"));
         return list;
-//        return jdbcTemplate.queryForList("SELECT 1 = 1", Object.class);
     }
 
 }
