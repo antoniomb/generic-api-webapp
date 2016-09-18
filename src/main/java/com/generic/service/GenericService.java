@@ -1,19 +1,17 @@
-package com.generic.dao;
+package com.generic.service;
 
 import com.generic.dto.GenericDTO;
 import org.springframework.stereotype.Repository;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 /**
  * Created by amiranda on 18/09/16.
  */
 @Repository
-public class GenericDao {
+public class GenericService {
 
     public GenericDTO get() {
         return new GenericDTO(1L,"OK");

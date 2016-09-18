@@ -1,6 +1,6 @@
 package com.generic.controller;
 
-import com.generic.dao.GenericDao;
+import com.generic.service.GenericService;
 import com.generic.dto.GenericDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -17,7 +17,7 @@ import java.util.List;
 public class GenericController {
 
     @Autowired
-    private GenericDao genericDao;
+    private GenericService genericDao;
 
     @RequestMapping("/endpoint1")
     @ResponseBody

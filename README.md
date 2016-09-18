@@ -11,7 +11,7 @@ http://localhost:8090/status
 To view webapp use url:
 http://localhost:8090/index.html
 
-Default Generic Controller, Dao, DTO and webapp calls has been created as example of usage.
+Default Generic Controller, Service, DTO and webapp calls has been created as example of usage.
 Api sources are on src/main/java/com/generic
 Webapp sources are on src/main/resources/public package.
 
