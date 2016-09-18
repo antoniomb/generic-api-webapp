@@ -1,4 +1,4 @@
-# generic_api_webapp
+# generic-api-webapp
 Generic base api-webapp with spring boot and angularjs
 
 ## How to use
